@@ -1,0 +1,52 @@
+main {
+  .welcome-header {
+    text-align: center;
+  }
+
+  .categories {
+    margin: 20px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background: transparent;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 8px;
+
+    .category-wrapper {
+      margin: 10px;
+      background-color: #f8f1e9;
+      box-shadow: 1px 1px 1px #ddd;
+      border-radius: 8px;
+      color: #333333;
+      height: fit-content;
+
+      .category {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+        padding: 10px;
+        border-radius: 8px 8px 0 0;
+        width: inherit;
+        background-color: #7bc7ef;
+      }
+
+      .link-list {
+        padding: 5px;
+        margin: 10px;
+
+        .link-item {
+          margin-bottom: 10px;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+          max-width: 200px;
+        }
+      }
+    }
+  }
+}
