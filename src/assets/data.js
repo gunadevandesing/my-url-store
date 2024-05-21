@@ -4,12 +4,12 @@ export const linksAvailable = [  {
   {
   id: "pts-1",
       name: "DTP Assist",
-      url: "https://dev.azure.com/TfO-DevOps-CCT-US/SynOps_31124/_sprints/taskboard/DTP%20Assist/SynOps_31124/DTP%20Assist%20Dasboard/Sprint%202",
+      url: "https://dev.azure.com/TfO-DevOps-CCT-US/SynOps_31124/_sprints/taskboard/DTP%20Assist/SynOps_31124/DTP%20Assist%20Dasboard/Sprint%204",
   },
   {
   id: "pts-2",
       name: "Developer Studio",
-      url: "https://dev.azure.com/TfO-DevOps-CCT-US/SynOps_31124/_sprints/taskboard/Prompt%20Studio%20Buildouts/SynOps_31124/Prompt%20Studio/DS_Sprint_3",
+      url: "https://dev.azure.com/TfO-DevOps-CCT-US/SynOps_31124/_sprints/taskboard/Prompt%20Studio%20Buildouts/SynOps_31124/Prompt%20Studio/DS_Sprint_4",
   },
   {
   id: "pts-3",
