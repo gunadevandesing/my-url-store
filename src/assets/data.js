@@ -73,8 +73,8 @@ export const linksAvailable = [  {
     },
     {
       id: "rcp-5",
-      name: "Invision Prototype",
-      url: "https://accentureoperations.invisionapp.com/console/share/MD7SG8T5V23/985480080/play",
+      name: "Vite config",
+      url: "https://in.accenture.com/technologyforoperations/infrastructure-team/enterprise-architecture/reference-architecture/development-architecture/",
     },
     {
       id: "rcp-6",
@@ -133,7 +133,7 @@ export const linksAvailable = [  {
   },
   {
   id: "general-6",
-  name:"Linun foundation",
+  name:"Linux foundation",
   url:"https://trainingportal.linuxfoundation.org/learn/course/green-software-for-practitioners-lfc131/introduction/welcome-to-lfc131?page=5"
   },
   {
