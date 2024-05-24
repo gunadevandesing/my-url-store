@@ -23,12 +23,12 @@ export const linksAvailable = [  {
   },
     {
       id: "pts-5",
-      name: "PTS React Repo",
-      url: "https://dev.azure.com/TfO-DevOps-CCT-US/SynOps_31124/_git/SynOps.MSTeamAppEnablementUI/branches",
+      name: "Vite config",
+      url: "https://in.accenture.com/technologyforoperations/infrastructure-team/enterprise-architecture/reference-architecture/development-architecture/",
     },
     {
       id: "pts-6",
-      name: "PTS Pipelines",
+      name: "Pipelines",
       url: "https://dev.azure.com/TfO-DevOps-CCT-US/SynOps_31124/_build",
     },
     {
@@ -73,8 +73,8 @@ export const linksAvailable = [  {
     },
     {
       id: "rcp-5",
-      name: "Vite config",
-      url: "https://in.accenture.com/technologyforoperations/infrastructure-team/enterprise-architecture/reference-architecture/development-architecture/",
+      name: "Invision Prototype",
+      url: "https://accentureoperations.invisionapp.com/console/share/MD7SG8T5V23/985480080/play",
     },
     {
       id: "rcp-6",
