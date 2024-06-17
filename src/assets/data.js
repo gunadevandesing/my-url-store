@@ -49,6 +49,16 @@ export const linksAvailable = [  {
   ],
 },
 {
+  category: "Gen AI links",
+  links: [
+    {
+      id: "genai-1",
+      name:"Langchain - Hackerio",
+      url:"https://hackteam.io/blog/build-ai-applications-langchain-javascript-react/"
+    }
+  ]
+},
+{
   category: "Risk control platform",
   links: [
     {
