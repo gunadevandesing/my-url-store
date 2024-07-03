@@ -1,5 +1,8 @@
 import { lazy, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
+import { auth } from "./firebaseConfig/firebase.js";
+import { useAuthState } from "react-firebase-hooks/auth";
+
 const LoginPage = lazy(() => import("./Pages/LoginPage/LoginPage"));
 const LinksHomePage = lazy(() => import("./Pages/LinksHomePage/LinksHomePage"));
 const UnAuthorizedPage = lazy(() =>
@@ -16,6 +19,8 @@ const RoutesContainer = () => {
   const authorizationSelector = useSelector((store) => store.authorization);
   const { isAuthorized } = authorizationSelector;
 
+  const [user] = useAuthState(auth);
+
   useEffect(() => {
     const isAuth = sessionStorage.getItem("isAuth")
       ? JSON.parse(sessionStorage.getItem("isAuth"))
@@ -25,9 +30,9 @@ const RoutesContainer = () => {
   }, [dispatch]);
 
   useEffect(() => {
-    if (!isAuthorized) navigate("/login");
+    if (!user) navigate("/login");
     else navigate("/links");
-  }, [isAuthorized]);
+  }, [user, navigate]);
 
   return (
     <Routes>
